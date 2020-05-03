@@ -4,22 +4,39 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">    
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link href='https://fonts.googleapis.com/css?family=Sansita' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
     <title>Bem vindo à Tiger Games!</title>
 </head>
-<body>
-    <header>
-        <img src="fachada.JPG" alt="Fachada da Loja">    
-    </header>
-    <main>
-        <div>
-            
-            <div><img src="icons/facebook.svg" alt="Logo Facebook"></div>
-            <div><img src="icons/instagram.svg" alt="Logo Instagram"></div>
-            <div><img src="icons/whatsapp.svg" alt="Logo Whatsapp"></div>
+<body class="body d-flex flex-column justify-content-center">
+    <header class="header img-fluid">
+        <div class="perfil d-flex flex-column justify-content-center align-items-center">
+            <div class="d-flex img-perfil">
+                <img src="logo.jpg" alt="Imagem do perfil">
+            </div> 
+            <div class="descricao my-3 d-flex flex-column justify-content-center">
+                <p>-Games-</p>  
+                <p>-Consoles-</p>  
+                <p>-Manutenção-</p>  
+            </div>
         </div>
+    </header>
+    <main class="main d-flex flex-column justify-content-center align-items-center">
+        <div class="mensagem">
+            <p>Entre em contato conosco!</p>
+        </div>
+        <a href="https://g.page/LojaTigerGames?share">
+            <div class="d-flex justify-content-center">
+                <img src="icons/maps.svg" class="icon" alt="maps icon">
+                <p>Faça-nos uma visita!</p>
+            </div>
+        </a>
     </main>
-    <footer>
-
+    <footer class="footer">
+        <div class="d-flex flex-column align-items-center">
+            <p>Desenvolvido por Jean Schnorr</p>
+            <p>2020</p>
+        </div>
     </footer>
 </body>
 </html>
