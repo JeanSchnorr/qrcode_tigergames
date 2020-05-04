@@ -53,7 +53,7 @@ a:hover{
     border-radius: 25px;
 }
 .links{
-    width: 95%;
+    width: 320px;
     display: grid;
     grid-template-columns: 150px 150px;
     grid-row-gap:15px;
