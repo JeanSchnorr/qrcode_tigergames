@@ -73,6 +73,7 @@ p{
     align-items: center;
     justify-content: center;
     font: italic bold 14px 'Roboto', sans-serif;
+    text-decoration: none;
 }
 .facebook{
     background-color: #1778F2;
