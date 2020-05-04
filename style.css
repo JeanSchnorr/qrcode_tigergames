@@ -52,15 +52,17 @@ a:hover{
     top: -10px;
     border-radius: 25px;
 }
-.links a{
-    display: flex;
-    justify-content: center;
-    width: max-content;
+.links{
+    width: 95%;
+    display: grid;
+    grid-template-columns: 150px 150px;
+    grid-row-gap:15px;
+    justify-content: space-between;
 }
+    
 .link{
-    width: 200px;
-    max-width: 80%;
-    height: 35px;
+    width: 150px;
+    height: 40px;
     border-radius: 20px;
     margin:0;
     margin-bottom: 5px;
@@ -71,8 +73,8 @@ a:hover{
 .link div{
     background-color: #1c1e21;
     border-radius: 0 20px 20px 0;
-    width: 122px;
-    height: 28px;
+    width: 113px;
+    height: 32px;
     display: flex;
     align-items: center;
     justify-content: center;
