@@ -7,6 +7,9 @@ p{
     text-decoration: none;
     margin: 0 ;
 }
+a:hover{
+    text-decoration: none;
+}
 .body{
     background-color: #1c1e21;
 }
@@ -52,6 +55,7 @@ p{
 .links a{
     display: flex;
     justify-content: center;
+    width: max-content;
 }
 .link{
     width: 200px;
@@ -73,7 +77,6 @@ p{
     align-items: center;
     justify-content: center;
     font: italic bold 14px 'Roboto', sans-serif;
-    text-decoration: none;
 }
 .facebook{
     background-color: #1778F2;
